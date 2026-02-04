@@ -12,7 +12,8 @@ import {
   Briefcase, 
   Eye, 
   Database, 
-  Video 
+  Video,
+  RefreshCw
 } from "lucide-react"
 
 const activities = [
@@ -99,6 +100,12 @@ const activities = [
     title: "Member Shadowing Sessions",
     description: "Watch other members work through real problems. Learn approaches you wouldn't encounter in your own work.",
     why: "Seeing how others think is different from hearing what they conclude."
+  },
+  {
+    icon: RefreshCw,
+    title: "Long-Lived Reference Pages",
+    description: "Curated reference documents on key topics that are updated over time as understanding evolves. Not static posts—living resources.",
+    why: "The best references improve with use. These grow with the community's collective knowledge."
   }
 ]
 
